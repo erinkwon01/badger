@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Inter } from "next/font/google"; //TODO: replace with font
-import Feed from "./Feed";
+import Feed from "./feed/page";
 
 
 const inter = Inter({ subsets: ["latin"] });
