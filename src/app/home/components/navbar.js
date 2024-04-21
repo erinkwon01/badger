@@ -1,7 +1,11 @@
+'use client'
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+
 
 const NavBar = () => {
+  const router = useRouter();
   return (
     <>
       <div className="w-full h-20 bg-emerald-800 sticky top-0">
